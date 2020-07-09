@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Needit M2m Approving Users To" max_length="40" name="x_58872_needit_m2m_approving_users_to" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Approving Users" max_length="32" name="approving_users" reference="sc_cat_dt_app_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="NeedIt" max_length="32" name="from" reference="x_58872_needit_needit" type="reference"/>
+        <index name="index">
+            <element name="approving_users"/>
+        </index>
+        <index name="index2">
+            <element name="from"/>
+        </index>
+    </element>
+</database>
